@@ -1,0 +1,11 @@
+# Raspberry Pi Timechain Calendar Kiosk - Boot Configuration
+# 
+# Add these lines to /boot/firmware/config.txt in the [all] section
+
+[all]
+# Enable SPI for the display
+dtparam=spi=on
+
+# Configure the 3.5" piscreen display
+# Adjust rotate parameter if needed: 0, 90, 180, or 270
+dtoverlay=piscreen,drm,speed=18000000,rotate=0

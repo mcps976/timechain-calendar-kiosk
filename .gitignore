@@ -1,0 +1,39 @@
+# Raspberry Pi Timechain Calendar Kiosk - Git Ignore
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Personal configuration
+personal-config/
+my-settings/
+
+# Documentation build artifacts
+docs/_build/
+docs/.doctrees/
+
+# Test files and local testing
+test-output/
+local-test/
